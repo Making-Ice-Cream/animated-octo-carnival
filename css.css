@@ -88,3 +88,17 @@
         height: 150px;
     }
 }
+.cont
+{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-image: url("images/Capture.PNG") ;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    z-index: -1;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+   
+}
