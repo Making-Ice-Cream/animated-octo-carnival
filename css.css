@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 .img
 {
     /* border: 2px solid green; */
@@ -102,3 +103,17 @@
     align-items: center;
    
 }
+#time
+{
+    color: yellow;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+.navbar-brand img
+{
+    animation: moving 3s ease-in-out 0s infinite alternate;
+}
+@keyframes moving {
+    from {transform: rotate(-5deg);}
+    to {transform: rotate(5deg);}
+  }
