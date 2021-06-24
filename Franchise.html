@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>IceCream - Mania</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="images/Capture.JPG" alt="" srcset="" width="118px" height="80px"
+                    style="border-radius: 10px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="location.html">Our Centers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Franchise.html">Franchise</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a> -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="premium-tubs.html"> Premium tubs</a></li>
+                            <li><a class="dropdown-item" href="treat-Cones.html">Treat Cones</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="treat Bars.html">Treat Bars</a></li>
+                            <li><a class="dropdown-item" href="treat-novalities.html">Treat Novelties</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="scoops.html">Scoops</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foot">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">
+                            <p class="text">Login to Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">
+                            <p class="text" id="time"></p>
+                        </a>
+                    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">
+                            <p class="text" id="time"></p>
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                        class="btn btn-outline-danger btn-warning mx-2 ">SignUp</button>
+
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal"
+                        class="btn btn-outline-primary btn-dark mx-2">Login</button>
+
+            </div>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+
+
+
+    <!--  login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel"
+                        style="font-family:  'Dancing Script', cursive; font-size: 70px;">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SignUp modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel"
+                        style="font-family:  'Dancing Script', cursive; font-size: 70px;">SignUp</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <!-- <span aria-hidden="true">&times;</span>
+        </button> -->
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="signupFormControlInput1">Name</label>
+                            <input type="text" class="form-control" id="signupFormControlInput0"
+                                placeholder="Enter  Your Full Name">
+                            <label for="signupFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="signupFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupFormControlInput2">Password</label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Password Must Contain Special Character">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupFormControlInput3">Phone Number</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput3"
+                                placeholder=" Enter Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupFormControlInput3">Address</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput4"
+                                placeholder=" Enter Your Address">
+                        </div>
+                        <div class="form-group form-check">
+
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">SignUp</button>
+
+                    </form>
+
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="Fran ">
+        <h3 style="text-align: center; color: blue; font-family: 'Viaoda Libre', cursive;text-decoration: underline;">
+            FRANCHISE</h3>
+        <div class="x mx-5">
+            <hr>
+            <small id="fran">
+                The consumption pattern of people with regard to ice creams has changed over time. The worldwide
+                consumption pattern of ice creams has phenomenally changed over the years with a growing preference for
+                more exotic and unique flavors. Country like India too has witnessed this change. The country has
+                experienced a
+                steady increase in the volume and the manner in which ice creams have been consumed. Hectic lifestyles,
+                changing eating habits and tastes, the demand for reasonably priced high quality and delicious desserts
+                has grown. With the average income on the rise and greater number of people visiting foreign countries,
+                people today are more open to traveling and enjoying exotic desserts<br>
+                <br>
+
+                Mania Ice cream franchise is a low cost high return on investment option with a high degree of
+                differentiation in the food industry. The franchise opportunity is open to all, even to those who have
+                no prior experience in the restaurant business.<br>
+                <br>
+
+                The stringent training guidelines, standardized operating procedures, backed by professional operations,
+                sales, marketing and human resources team enable the franchisee to be a part of successful Ice cream
+                business story.<br>
+                <br>
+                <hr>
+                <h6 style="color: red;text-decoration: underline;">Eligibility</h6>
+                <ul>
+                    <li>
+                        <small>
+                            Must be an outright corner shop / facing the main road.
+                        </small>
+                    </li>
+                    <li>
+                        <small>Carpet area should range from 750 to 1200 sq ft.</small>
+                    </li>
+                    <li><small>Must be an exclusive Natural ice cream parlour; no shop-in-shop.</small></li>
+                    <li><small>concept or cross branding format will be considered.</small></li>
+                    <li><small>An investment of Rs 5 - 6 lacs required on the shop (includes interiors &
+                            equipments).</small></li>
+                    <li><small>Franchise holder should procure all statutory requirements (Food license, Shop &
+                            Establishment license etc.).</small></li>
+                    <li> <small>No deposits or franchise fees are required.</small>
+                    </li>
+                    <li><small>We are currently not considering any queries for franchise in malls or departmental /
+                            supermarket stores, hence applicants are requested to avoid the same.</small></li>
+                    <li> <small>
+                            We are currently accepting any franchise queries for various parts of Northern India.
+                        </small></li>
+                </ul>
+                <hr>
+                <small>DISCLAIMER: This information is not intended as an offer to sell, or the solicitation of an offer
+                    to buy, a franchise. It is for information purposes only.</small>
+            </small>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+<div class="footer" id = "foot">
+    <div class="contact-info">
+        <h3 style="text-decoration: underline;">CONTACT INFO</h3>
+        <p style="margin-top: 30px;"><strong>Address : </strong>HO: 134, Empress Mill Society,<br>Shree Nagar,
+            Narnaul-
+            123001. </p>
+        <p> <strong>Phone Number: </strong>0712 - 2785505</p>
+        <p> <strong>Email: </strong> info@Cream.in</p>
+        <p> <strong>Website: </strong> www.ManiaIceCream.in</p>
+    </div>
+    <div class="email">
+        <h3 style="text-decoration: underline;">GET IN TOUCH</h3>
+        <small>Join our mailing list to stay up to date and <br>
+            get notices about our new releases!</small>
+        <br>
+        <input style="margin-top: 10px; padding: 2px;" type="email" name="" id="" placeholder="mail@example.com">
+        <button class=" v" type="submit" style="color: white;">SEND</button>
+        <div class="follow">
+            <h5 style="color: cyan; text-decoration: underline; ">FOLLOW US</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-twitter mx-2 c" viewBox="0 0 16 16">
+                <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-facebook c  mx-2" viewBox="0 0 16 16">
+                <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-instagram mx-2 c" viewBox="0 0 16 16">
+                <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg>
+        </div>
+    </div>
+
+
+</div>
+<div class="footer1">
+    <hr style="  color: #f5f5f5;">
+    <p class="mx-5 my-3" style="color: white; text-align: center;">© 2021 - All Rights Reserved - Mania Ice Cream
+    </p>
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
