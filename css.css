@@ -124,3 +124,65 @@
       height: 675px;
       width: 100%;
   }
+  @media (max-width:250px) 
+{
+    .Fran
+    {
+        margin-top: 200px;
+        
+    } 
+}
+@media (max-width:940px)
+{
+    .Fran{
+        height: 800px;
+    }
+}
+@media (max-width:800px)
+{
+    .Fran{
+        height: 900px;
+    }
+}
+@media (max-width:600px)
+{
+    .Fran{
+        height: 1050px;
+    }
+}
+@media (max-width:490px)
+{
+    .Fran{
+        height: 1200px;
+    }
+}
+@media (max-width:440px)
+{
+    .Fran{
+        height: 1500px;
+    }
+}
+@media (max-width:360px)
+{
+    .Fran{
+        height: 2000px;
+    }
+}
+@media (max-width:200px)
+{
+    .Fran{
+        height: 4500px;
+    }
+}
+@media (max-width:190px)
+{
+    .Fran{
+        height: 6000px;
+    }
+}
+@media (max-width:270px)
+{
+    .Fran{
+        height: 3500px;
+    }
+}

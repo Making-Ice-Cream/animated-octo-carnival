@@ -21,7 +21,7 @@ function startTime() {
     let curr = h +":" + m + ":" + s +" "+ am;
    
     //console.log(curr);
-    document.getElementById('time').innerHTML = curr;
+    document.getElementById('time').innerText = curr;
 
 
 }
