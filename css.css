@@ -124,65 +124,138 @@
       height: 675px;
       width: 100%;
   }
-  @media (max-width:250px) 
+   @media (max-width:250px)
 {
-    .Fran
+    .Fran, .scoopsBody, .footer
     {
         margin-top: 200px;
-        
-    } 
+
+    }
 }
 @media (max-width:940px)
 {
-    .Fran{
+  .Fran, .scoopsBody, .footer{
         height: 800px;
     }
 }
 @media (max-width:800px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 900px;
     }
 }
 @media (max-width:600px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 1050px;
     }
 }
 @media (max-width:490px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 1200px;
     }
 }
 @media (max-width:440px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 1500px;
     }
 }
 @media (max-width:360px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 2000px;
     }
 }
 @media (max-width:200px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 4500px;
     }
 }
 @media (max-width:190px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 6000px;
     }
 }
 @media (max-width:270px)
 {
-    .Fran{
+    .Fran, .scoopsBody, .footer{
         height: 3500px;
     }
+}
+
+
+
+/* CSS FOR SCOOPS */
+
+.scoopsBody{
+  position: relative;
+}
+
+
+.mt-50 {
+    margin-top: 110px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem
+}
+
+.card-img-actions {
+    position: relative
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-img {
+    width: 350px
+}
+
+.star {
+    color: red
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff
+}
+
+.bg-cart:hover {
+    color: #fff
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px
+}
+
+.bg-buy:hover {
+    color: #fff
+}
+
+a {
+    text-decoration: none !important
 }
