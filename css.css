@@ -107,7 +107,33 @@
 {
     color: yellow;
     font-family: 'Orbitron', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
+    animation: coloring  40s ease-in-out 0s infinite alternate;
+}
+@keyframes coloring
+{
+    0%
+    {
+        color: yellow;
+    }
+    25%
+    {
+        color: white;
+    }
+    50%
+    {
+        color:  rgb(238, 15, 238);
+    }
+    75%
+    {
+        color: red;
+    }
+    100%
+    {
+        color: cyan;
+
+    }
+
 }
 .navbar-brand img
 {
