@@ -241,11 +241,11 @@
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .1875rem
+    border-radius: .1875rem;
 }
 
 .card-img-actions {
-    position: relative
+    position: relative;
 }
 
 .card-body {
@@ -256,30 +256,30 @@
 }
 
 .card-img {
-    width: 350px
+    width: 350px;
 }
 
 .star {
-    color: red
+    color: red;
 }
 
 .bg-cart {
     background-color: orange;
-    color: #fff
+    color: #fff;
 }
 
 .bg-cart:hover {
-    color: #fff
+    color:red;
 }
 
 .bg-buy {
     background-color: green;
     color: #fff;
-    padding-right: 29px
+    padding-right: 29px;
 }
 
 .bg-buy:hover {
-    color: #fff
+    color: #fff;
 }
 
 a {
