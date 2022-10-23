@@ -1,3 +1,1 @@
-# animated-octo-carnival
-Making First Ice-Cream-Website
-Learning Web development
+Front-end of a ICE-CREAM Parlour website created to learn HTML, CSS, Bootstrap.
